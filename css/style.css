@@ -1,0 +1,556 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2b2b;
+    font-family: Montserrat, sans-serif;
+}
+
+.navigation {
+    background-color: #2b2b2b;
+    color: white;
+    height: 56px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    height: 56px;
+    text-align: right;
+}
+
+.navigation a {
+    color: #ffff;
+    text-decoration: none;
+
+}
+
+
+.navigation li {
+ display: inline-block;
+ line-height: 56px;
+ padding-left: 30px;
+ padding-right: 30px;
+ font-weight: 100;
+ font-size: 18px;
+}
+.navigation h1{
+    color:white;
+    font-size: 16px;
+}
+
+.capa {
+    color: white;
+}
+
+.capa span {
+    color: #f27609;
+    display: block;
+}
+
+.capa div {
+    display: inline-block;
+    height: 650px;
+}
+
+.profile-pic {
+    width: 39%;
+    text-align: center;
+    display: inline-block;
+    height: 650px;
+}
+
+.profile-pic img {
+    border-radius: 152px;
+    width: 320px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.profile-title {
+    vertical-align: top;
+    width: 60%;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    height: 650px;
+}
+
+.profile-title span{
+    vertical-align: top;
+    width: 60%;
+    color:#f27609;
+    text-align: center;
+}
+
+.profile-title h2{
+    vertical-align: top;
+    width: 60%;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    height: 650px;
+    font-size: 30px;
+}
+
+.profile-title h1 {
+    margin-top: 200px;
+    font-size: 58px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 54px;
+}
+
+.profile-h2 {
+    margin-top: -26px;
+    font-weight: 100;
+    font-size: 16px;
+    color:#ffff;
+
+}
+.profile-title h3{
+    vertical-align: top;
+    width: 60%;
+    color:#f27609;
+    text-align: center;
+    display: inline-block;
+    height: 650px;
+    font-size: 30px
+
+}
+
+.profile-contato {
+    vertical-align: top;
+    width: 60%;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    height: 100px;
+    font-size: 60px;
+}
+
+.profile-contato span{
+    vertical-align: top;
+    width: 60%;
+    color:#f27609;
+    text-align: center;
+    display: inline-block;
+    height: 650px;
+}
+
+.contato-pic {
+    width: 39%;
+    height: 100px;
+    text-align: left;
+
+}
+
+.contato-pic img {
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 180px;
+}
+
+.profile-telefone {
+    margin-top: 55px;
+    margin-left: -70px;
+    width: 80%;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    height: 80%;
+    font-size: 30px;
+}
+
+.profile-email {
+    margin-top: 55px;
+    margin-left: 0px;
+    width: 80%;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    height: 80%;
+    font-size: 30px;
+}
+
+
+.profile-face {
+    margin-top: 55px;
+    margin-left: -130px;
+    width: 80%;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    height: 80%;
+    font-size: 30px;
+}
+
+.profile-design {
+    margin-top: 55px;
+    margin-left: -130px;
+    width: 80%;
+    color:#f27609;
+    text-align: center;
+    display: inline-block;
+    height: 80%;
+    font-size: 30px;
+}
+
+
+.profile-dev {
+    margin-top: 55px;
+    margin-left: -20px;
+    width: 80%;
+    color:#f27609;
+    text-align: center;
+    display: inline-block;
+    height: 80%;
+    font-size: 30px;
+}
+
+.navigationport  {
+    color:#f27609 ;
+    text-decoration: none;
+
+}
+.portfolio-pic img {
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.portfolio {
+    color:#f27609;
+    text-align: center;
+    display:inline-block;
+    height: 100px;
+    font-size: 60px;
+    margin-left: 180px;
+    margin-top: -200px;
+}
+
+.projeto-pic {
+    width: 39%;
+    height: 100px;
+    text-align: center;
+    color: #f27609;
+    text-decoration: none;
+
+}
+
+.projeto-pic img {
+    width: 150px;
+    margin-top: 150px;
+    margin-left: 180px;
+    border-radius: 20px;
+    background-color: #ffff;
+    display: inline-block;
+}
+
+.projeto-pic h3{
+    color: #f27609;
+    text-decoration: none;
+    margin-left: 170px;
+}
+
+.fiquebem-pic img {
+    width: 150px;
+    margin-top: -27px;
+    margin-left: 800px;    
+    border-radius: 20px;
+    background-color: #ffff;
+    display: inline-block;
+}
+
+.fiquebem img {
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 60px;    
+    border-radius: 20px;
+    background-color: transparent;
+    display: inline-block;
+    
+}
+
+
+
+
+.projeto-pic2 {
+    width: 39%;
+    height: 100px;
+    margin-left: 480px;
+    margin-top: -117.0px;
+    text-align: right;
+    color: #f27609;
+    text-decoration: none;
+
+}
+
+.fiquebem-projeto{
+    vertical-align: top;
+    width: 60%;
+    margin-top: -200px;
+    margin-left: 140px;
+    color:#f27609;
+    text-align: center;
+    display: inline-block;
+    height: 100px;
+    font-size: 60px;
+}
+
+.telas{
+    margin-left: 60px;
+}
+
+.desccricaoprojeto{
+    margin-left: 100px;
+}
+
+.desccricaoprojeto h1{
+    color:#f27609;
+}
+
+.desccricaoprojeto h3{
+    color:#f27609;
+}
+.desccricaoprojeto span{
+    color:#ffff;
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .navigation {
+        background-color: #2b2b2b;
+        color: white;
+        height: 30px;
+        font-style: oblique;
+        font-weight: bold;
+        padding: auto;
+    }
+
+    .navigation li {
+        display:ruby-base-container ;
+       }
+
+    .profile-telefone {
+        display:inline-table;
+        padding: auto;
+        margin-left:50px;
+
+    }
+    
+    .profile-email {
+        display:inline-table;
+        padding: auto;
+        margin-left: 100px;
+    }
+    
+    .profile-face {
+        display:inline-table;
+        padding: auto;
+        margin-left: auto;
+    }
+
+    .profile-design {
+        display:inline-table;
+        padding: auto;
+        margin-left:35px;
+        margin-left: 60px;
+
+    }
+
+    .profile-dev {
+        display:inline-table;
+        padding: auto;
+        margin-left:35px;
+        margin-left: 80px;
+
+    }
+    .fiquebem-pic {
+        display:inline-table;
+        padding: auto;
+        margin-left:-243px;
+    
+    }
+    .fiquebem-projeto{
+        display:inline-table;
+        padding: auto;
+        margin-left:200px;
+    }
+    .projeto-pic2 {
+        width: 39%;
+        height: 100px;
+        margin-left: 350px;
+        margin-top: -117.0px;
+        text-align: right;
+        color: #f27609;
+        text-decoration: none;
+    
+    }
+
+    @media (min-width: 1001px) {
+        .fiquebem-pic{
+            margin-left: 250px;
+        }
+    }
+
+    
+    
+
+
+    
+
+
+
+    
+    
+    
+    /*.navigation h1{
+        color:white;
+        font-size: 16px;
+    }
+    
+    .capa {
+        color: white;
+    }
+    
+    .capa span {
+        color: #f27609;
+        display: block;
+    }
+    
+    .capa div {
+        display: inline-block;
+        height: 650px;
+    }
+    
+    .profile-pic {
+        width: 39%;
+        text-align: center;
+        display: inline-block;
+        height: 650px;
+    }
+    
+    .profile-pic img {
+        border-radius: 152px;
+        width: 320px;
+        margin-top: 100px;
+        align-items: center;
+    }
+    
+    .profile-title {
+        vertical-align: top;
+        width: 60%;
+        color:white;
+        text-align: center;
+        display: inline-block;
+        height: 650px;
+    }
+    
+    .profile-title span{
+        vertical-align: top;
+        width: 60%;
+        color:#f27609;
+        text-align: center;
+    }
+    
+    .profile-title h2{
+        vertical-align: top;
+        width: 60%;
+        color:white;
+        text-align: center;
+        display: inline-block;
+        height: 650px;
+        font-size: 30px;
+    }
+    
+    .profile-title h1 {
+        margin-top: 200px;
+        font-size: 58px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 54px;
+    }
+    
+    .profile-h2 {
+        margin-top: -26px;
+        font-weight: 100;
+        font-size: 16px;
+        color:#ffff;
+    
+    }
+    .profile-title h3{
+        vertical-align: top;
+        width: 60%;
+        color:#f27609;
+        text-align: center;
+        display: inline-block;
+        height: 650px;
+        font-size: 30px
+    
+    }
+    
+    .profile-contato {
+        vertical-align: top;
+        width: 60%;
+        color:white;
+        text-align: center;
+        display: inline-block;
+        height: 100px;
+        font-size: 60px;
+    }
+    
+    .profile-contato span{
+        vertical-align: top;
+        width: 60%;
+        color:#f27609;
+        text-align: center;
+        display: inline-block;
+        height: 650px;
+    }
+    
+    .contato-pic {
+        width: 39%;
+        height: 100px;
+        text-align: left;
+    
+    }
+    
+    .contato-pic img {
+        width: 100px;
+        margin-top: 150px;
+        margin-left: 180px;
+    }
+    
+   
+   
+    
+    
+    }*/
+
+    .menuJs {
+        height: auto;
+    }
+    
+    .menuJs ul {
+        height: auto;
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    .menuJs li {
+        display: block;
+        border-bottom: solid grey 1px;
+        width: 100%;
+        padding: 0;
+    }
+}
+
